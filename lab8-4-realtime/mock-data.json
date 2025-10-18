@@ -1,0 +1,40 @@
+{
+  "agents": [
+    {
+      "id": "AG001",
+      "name": "Alice Johnson",
+      "status": "Available",
+      "extension": "1001",
+      "currentCall": null,
+      "lastUpdate": "2024-01-15T10:30:00Z",
+      "stats": {
+        "callsToday": 15,
+        "avgCallTime": 245,
+        "totalTalkTime": 3675
+      }
+    },
+    {
+      "id": "AG002", 
+      "name": "Bob Smith",
+      "status": "Busy",
+      "extension": "1002",
+      "currentCall": {
+        "callerNumber": "02-123-4567",
+        "startTime": "2024-01-15T10:45:00Z",
+        "duration": 120
+      },
+      "lastUpdate": "2024-01-15T10:45:00Z",
+      "stats": {
+        "callsToday": 8,
+        "avgCallTime": 312,
+        "totalTalkTime": 2496
+      }
+    }
+  ],
+  "systemStats": {
+    "totalCalls": 156,
+    "avgWaitTime": 23,
+    "longestWait": 145,
+    "activeCalls": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lab8-4-realtime-wallboard",
+  "version": "1.0.0",
+  "description": "Agent Wallboard with Real-time APIs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^27.0.0"
+  }
+}
